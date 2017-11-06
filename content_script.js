@@ -26,7 +26,7 @@ function _ini(){
             beforeSend: function(xhrObj){
                 // Request headers
                 xhrObj.setRequestHeader("Content-Type","text/plain");
-                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","35390df9684540bdb2e141a2abf58f2d");
+                xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key","Your Azure API Key");
             },
             type: "POST",
             // Request body
